@@ -42,7 +42,7 @@ const CarouselProducts = () => {
   useEffect(() => {
     const updateVisibleCount = () => {
        if (window.innerWidth >= 1280) {
-        setVisibleCount(4);
+        setVisibleCount(5);
       } else if (window.innerWidth >= 768) {
         setVisibleCount(3);
       } else if (window.innerWidth >= 640) {
