@@ -37,7 +37,7 @@ const Store = () => {
 
   return (
     <div>
-        <div className="grid grid-cols-5   mt-  ">
+        <div className="grid grid-cols-5   lg:mt-20  ">
             <div className="col-span-5 lg:col-span-2 pl-24 pr-20">
                 <div style={{color:"#333"}} className='mt-20 col-span-2 '>
                     <h1 className="text-3xl  my-2">Store locator</h1>
@@ -66,12 +66,12 @@ const Store = () => {
                         {visibleImages.map((image, index) => (
                             <div
                             key={index}
-                            className="flex flex-col  bottom-0 items-center text-center"
+                            className="flex flex-col bottom-0 items-center text-center"
                             >
                             <img
                                 src={image.src}
                                 alt={image.title}
-                                className="w-full  object-contain mb-4"
+                                className="w-full aspect-video   object-contain mb-4"
                             />
                             </div>
                         ))}
