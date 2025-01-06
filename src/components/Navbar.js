@@ -1,6 +1,4 @@
 import { IoSearch } from "react-icons/io5";
-import { FaRegHeart } from "react-icons/fa";
-import { FaGripLines } from "react-icons/fa6";
 
 const Navbar = ()=>{
     return(
